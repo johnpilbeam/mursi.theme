@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<object name="portal_javascripts">
+
+ <javascript
+    id="++theme++mursi.theme/js/theme.js"/>
+
+ <javascript
+    id="++theme++mursi.theme/js/modernizr.js"/>
+
+ <javascript
+    id="http://w.sharethis.com/button/buttons.js"/>
+
+ <javascript
+    id="++theme++mursi.theme/js/share_this.js"/>
+
+</object>

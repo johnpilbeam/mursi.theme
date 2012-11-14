@@ -1,0 +1,33 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="younglives.theme">
+
+  <interface
+      interface=".interfaces.IThemeSpecific"
+      type="zope.publisher.interfaces.browser.IBrowserSkinType"
+      name="Young Lives Theme"
+      />
+
+  <include package="plone.app.contentmenu" />
+  <include package=".viewlets" />
+
+  <browser:viewlet
+        name="younglives.footer"
+        manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+        class=".footer.FooterViewlet"
+        template="footer.pt"
+        layer="younglives.theme.browser.interfaces.IThemeSpecific"
+        permission="zope2.View" />
+
+  <!-- Document actions is customised here, but hidden, as theme specific one is used
+       to enable the share this link to be added with the correct css class
+       can be removed once plone specific product is used instead -->
+  <browser:viewlet
+      name="plone.abovecontenttitle.documentactions"
+      manager="plone.app.layout.viewlets.interfaces.IAboveContent"
+      class="plone.app.layout.viewlets.content.DocumentActionsViewlet"
+      permission="zope2.View"
+      />
+
+</configure>

@@ -1,0 +1,4 @@
+<layers>
+    <layer name="Mursi Online Theme"
+           interface="mursi.theme.browser.interfaces.IThemeSpecific" />
+</layers>

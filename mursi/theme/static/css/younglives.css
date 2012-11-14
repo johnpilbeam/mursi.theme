@@ -1,0 +1,305 @@
+body {
+    font-family: arial,verdana,sans-serif;
+    background-color: #F7F5EA;
+}
+
+.portaltype-homepage #content-wrapper
+{
+    background-color: white;
+    border-bottom: 2px solid #F1EDDF;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    color: #4E2F91;
+    outline: medium none;
+    text-decoration: none;
+}
+
+#content-wrapper .portletNavigationTree a,
+#content-wrapper .portletNavigationTree a:link,
+#content-wrapper .portletNavigationTree a:visited,
+#content-wrapper .portletNavigationTree a:active
+{
+    color: #4E2F91 !important;
+    outline: medium none;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+#content-wrapper .portletNavigationTree a:hover
+{
+    text-decoration: underline !important;
+}
+
+#header-wrapper {
+    background: none repeat scroll 0 0 #4E2F91;
+    border-bottom: 2px solid #35157C;
+    overflow: hidden;
+}
+
+#portal-globalnav
+{
+    float: right; 
+    background: none repeat scroll 0 0 #4E2F91;
+    margin: 0;
+}
+
+#portal-globalnav li
+{
+    margin-left: 22px;
+}
+
+#portal-globalnav li a
+{
+    color: #b897e3;
+    font-size: 120%;
+    background: none repeat scroll 0 0 #4E2F91;
+    border-right: none;
+    padding: 0;
+}
+
+#portal-globalnav li.selected a,
+#portal-globalnav li.selected a:hover,
+#portal-globalnav li a:hover
+{
+    color: #ffffff;
+    background: none repeat scroll 0 0 #4E2F91;
+}
+
+#breadcrumbs-wrapper
+{
+    background: #ebe7d6; 
+    font-size: 0.93em;
+    line-height: 1.4;
+    padding: 4px 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+#portal-breadcrumbs
+{
+    margin: 0;
+    font-size: 100%;
+}
+
+#portal-breadcrumbs a
+{
+    font-size: 0.93em;
+}
+
+#content-wrapper
+{
+    margin-top: 26px;
+}
+
+.documentActions
+{
+    float: right;
+}
+
+#edit-bar
+{
+    background-color:#579EC9; 
+    border:0.25em solid #579EC9;
+}
+
+#content-views,
+#contentActionMenus
+{
+    background-color: #579EC9 !important;
+}
+
+#contentActionMenus dl.actionMenu a
+{
+    border-bottom:1px solid #579EC9;
+}
+
+#contentActionMenus dl.actionMenu a,
+#contentActionMenus dl.actionMenu.activated dd
+{
+    background-color:#579EC9;
+}
+
+#contentActionMenus dl.actionMenu.activated dd
+{
+    border-bottom:0.5em solid #579EC9;
+}
+
+#footer-wrapper
+{
+    background: none repeat scroll 0 0 #F4F1E3;
+    border-top: 2px solid #F1EDDF;
+    overflow: hidden;
+}
+
+#portal-footer
+{
+    background-color: #F4F1E3;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-img {
+    float: left;
+    margin-right: 26px;
+    padding-top: 25px;
+}
+
+#footer-wrapper .block h6 {
+    color: #837562;
+    font-family: "Gill Sans","Trebuchet MS",Calibri,sans-serif;
+    font-size: 230%;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+#footer-wrapper .arrow-list li {
+    font-size: 130%;
+}
+
+#footer-wrapper .news li {
+    display: list-item;
+    font-size: 140%;
+    padding: 4px 0;
+}
+
+#footer-wrapper .logo {
+    float: right;
+    margin-top: 25px;
+}
+
+#footer-wrapper .links {
+    clear: both;
+    font-size: 0.86em;
+    padding-top: 15px;
+}
+
+#footer-wrapper .links ul li {
+    background: url("++theme++mursi.theme/images/bg-footer-links.png") no-repeat scroll right top transparent;
+    margin-right: 3px;
+    padding-right: 6px;
+    font-size: 130%;
+}
+
+#footer-wrapper .links ul li.last,
+#footer-wrapper .links ul li.update
+{
+    background: none;
+}
+
+#document-action-print .chicklets
+{
+    background: url("++theme++mursi.theme/images/icon_print.png") no-repeat scroll left top transparent;
+}
+
+li.stButton a.chicklets
+{
+    font-size: 110% !important;
+}
+
+span.date
+{
+    color: #7E7D7D;
+    display: block;
+}
+
+.hgroup
+{
+    height: 123px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.hgroup h2 {
+    float: left;
+    line-height: 1;
+    padding: 0 10px 10px 0;
+    position: relative;
+    z-index: 2;
+    color: #837562;
+    font-size: 2em;
+    background: none repeat scroll 0 0 #F7F5EA;
+}
+
+.hgroup img
+{
+    background: none repeat scroll 0 0 #F7F5EA;
+    color: #837562;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+#quote-wrapper
+{
+    background: none repeat scroll 0 0 #FBFAF5;
+    border-top: 2px solid #F1EDDF;
+    clear: both;
+    color: #5F5F5F;
+    font-size: 1.29em;
+    font-weight: bold;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+#quote-wrapper .quote
+{
+    background: url("++resource++mursi.homepage.images/left-quote.png") no-repeat scroll 30px 0 transparent;
+    font-weight: bold;
+    margin-left: 150px;
+    padding-left: 50px;
+    padding-right: 60px;
+}
+
+#quote-wrapper blockquote
+{
+    background: url("++resource++mursi.homepage.images/right-quote.png") no-repeat scroll right bottom transparent;
+    display: inline;
+    font-style: italic;
+    padding-right: 20px;
+}
+
+#portal-column-one .portletNavigationTree ul li a {
+    background: url("++theme++mursi.theme/images/bg-nav.png") no-repeat scroll left center transparent;
+}
+
+#portal-column-two .news-list h3
+{
+    margin-bottom: 15px;
+    color: #837562;
+}
+
+div.news-list ul {
+    font-size: 0.86em;
+}
+
+#footer-wrapper .grid_12
+{
+    width: 990px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#content table th,
+#content table td
+{
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+}
+
+#portal-personaltools
+{
+    background-color: #4E2F91;
+}
+
+#portal-personaltools.deactivated a
+{
+    color: #B897E3;
+}
+
+#portal-personaltools.deactivated a:hover,
+#portal-personaltools.deactivated a:visited
+{
+    color: white;
+}
