@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<object>
-  <hidden manager="plone.belowcontentbody" skinname="Mursi Online Theme">
-    <viewlet name="plone.abovecontenttitle.documentactions" />
-  </hidden>
-  <hidden manager="plone.abovecontent" skinname="Mursi Online Theme">
-    <viewlet name="plone.abovecontenttitle.documentactions" />
-  </hidden>
-</object>

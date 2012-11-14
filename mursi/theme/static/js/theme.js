@@ -1,5 +1,0 @@
-
-function initializemursitheme(){
-
-}
-jQuery(initializemursitheme);
